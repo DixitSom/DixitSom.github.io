@@ -1,4 +1,51 @@
 :root {
     --primary: #3e3e3e;
     --secondry: #888;
+    --background: #fff;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:active {
+    color: unset;
+    text-decoration: none;
+}
+
+a:link {
+    color: unset;
+    text-decoration: none;
+}
+
+a:visited {
+    color: unset;
+    text-decoration: none;
+}
+
+a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+body {
+    font-family: Helvetica;
+}
+
+
+/* Nav Bar is Here */
+
+.nav {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 2em;
+
+    background-color: black;
+    color: var(--background);
+    padding: 1em;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
